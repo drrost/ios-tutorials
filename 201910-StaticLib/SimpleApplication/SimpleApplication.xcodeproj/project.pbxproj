@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116C4A73236C907D0033B726 /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 116C4A71236C907D0033B726 /* x86_64-apple-ios-simulator.swiftmodule */; };
+		116C4A74236C907D0033B726 /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 116C4A72236C907D0033B726 /* x86_64-apple-ios-simulator.swiftdoc */; };
 		11DF9BA4234E67C6004E11C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF9BA3234E67C6004E11C4 /* AppDelegate.swift */; };
 		11DF9BA6234E67C6004E11C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF9BA5234E67C6004E11C4 /* ViewController.swift */; };
 		11DF9BA9234E67C6004E11C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF9BA7234E67C6004E11C4 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116C4A71236C907D0033B726 /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
+		116C4A72236C907D0033B726 /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
 		11DF9BA0234E67C6004E11C4 /* SimpleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DF9BA3234E67C6004E11C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DF9BA5234E67C6004E11C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 		11DF9BB8234E69D1004E11C4 /* Networking.swiftmodule */ = {
 			isa = PBXGroup;
 			children = (
+				116C4A72236C907D0033B726 /* x86_64-apple-ios-simulator.swiftdoc */,
+				116C4A71236C907D0033B726 /* x86_64-apple-ios-simulator.swiftmodule */,
 				11DF9BB9234E69D1004E11C4 /* x86_64.swiftdoc */,
 				11DF9BBA234E69D1004E11C4 /* x86_64.swiftmodule */,
 			);
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DF9BBD234E69D1004E11C4 /* x86_64.swiftmodule in Resources */,
+				116C4A74236C907D0033B726 /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
 				11DF9BAE234E67C6004E11C4 /* LaunchScreen.storyboard in Resources */,
+				116C4A73236C907D0033B726 /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
 				11DF9BAB234E67C6004E11C4 /* Assets.xcassets in Resources */,
 				11DF9BA9234E67C6004E11C4 /* Main.storyboard in Resources */,
 				11DF9BBC234E69D1004E11C4 /* x86_64.swiftdoc in Resources */,
